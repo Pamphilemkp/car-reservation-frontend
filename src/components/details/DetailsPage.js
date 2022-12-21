@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { fetchCars } from '../../redux/details/detailsSlice';
-import './DetailsPage.css';
 
 function DetailsPage() {
   const cars = useSelector((state) => state.cars);
