@@ -11,11 +11,39 @@ function DetailsPage() {
   }, [dispatch]);
 
   return (
-    <>
-      {' '}
-      <h1>Cars</h1>
-      <div>{cars.map((car) => car.name)}</div>
-    </>
+    <div className="h-100 mt-4">
+      {cars.map((car) => (
+        <div className="container" key={car.id}>
+          <div className="row">
+            <div className="col">
+              <img className="w-100 h-75" src={car.photo} alt={car.name} />
+            </div>
+            <div className="col">
+              <div>
+                <p>{car.name}</p>
+              </div>
+              <div>
+                <p>{car.brand}</p>
+              </div>
+              <div>
+                <p>
+                  $
+                  {car.price}
+                </p>
+              </div>
+              <div>
+                <p>{car.description}</p>
+              </div>
+              <div>
+                <button type="button" className="btn btn-info">
+                  Reserve
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
   );
 }
 
