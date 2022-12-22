@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import DetailsPage from './components/details/DetailsPage';
@@ -12,7 +11,6 @@ function App() {
           <Route path="/cars" element={<DetailsPage />} />
         </Routes>
       </Router>
-
     </Provider>
   );
 }
