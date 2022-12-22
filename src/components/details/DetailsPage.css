@@ -77,6 +77,38 @@
   border-top-right-radius: 25px;
 }
 
+@media (max-width: 400px) {
+  .details .img-div {
+    min-width: 100px;
+    overflow: hidden;
+  }
+
+  .details .box {
+    min-width: 100px;
+    margin: 2rem;
+  }
+
+  .box header h2 {
+    font-size: small;
+  }
+
+  .details .booking-div {
+    gap: 0.3rem;
+    margin-left: 25%;
+    font-size: 0.6rem;
+  }
+
+  .details .duration-div {
+    gap: 0.3rem;
+    margin-left: 25%;
+    font-size: 0.6rem;
+  }
+
+  .details .color-div {
+    max-height: 200px;
+  }
+}
+
 @media (min-width: 992px) {
   * {
     max-height: 100vh;
