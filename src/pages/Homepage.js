@@ -1,20 +1,38 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import Navbar from './Navbar';
 import CarList from '../components/CarList';
 import { FetchCar } from '../redux/store/store';
 
-const cars = useSelector((state) => state.CarReducers);
-const dispatch = useDispatch;
-
 const Homepage = () => {
+  const cars = useSelector((state) => state.CarReducers);
+  const dispatch = useDispatch();
+  const home = {
+    display: 'flex',
+    with: '100vw',
+    justifycontent: 'space-between',
+    alignitems: 'center',
+    gap: '10px',
+  };
+
+  const homeparagraph = {
+    color: 'rgba(0, 0, 0, 0.5)',
+  };
+
   useEffect(() => {
     dispatch(FetchCar());
   });
 
   return (
-    <div>
-      <CarList cars={cars} />
+    <div className="home-page" style={home}>
+      <Navbar />
+      <div>
+        <div>
+          <h2>LATEST MODELS</h2>
+          <p style={homeparagraph}>Please select a car model to book</p>
+        </div>
+        <CarList cars={cars} />
+      </div>
     </div>
   );
 };

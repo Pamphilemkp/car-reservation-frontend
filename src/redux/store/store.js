@@ -1,4 +1,4 @@
-import asyncThunk from 'redux-async-thunk';
+import { createAsyncThunk } from '@reduxjs/toolkit';
 
 const GET_CAR = 'car_reservation/store/GET_CAR';
 
@@ -16,7 +16,7 @@ const initialeState = [
     name: 'Bmw 4-series',
     description: 'The 2022 BMW 4 Series is among the most expensive vehicles in the luxury small car class. The all-new 430i Gran Coupe retails for $45,200, with the BMW 4 Series coupe starting at $45,800 and the base convertible at $53,30',
     price: '$45,800',
-    photo: 'https://images.pexels.com/photos/898336/pexels-photo-898336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    photo: 'https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/2022-bmw-4-series-index.png',
     brand: 'Blue Bmw 4-series',
   },
   {
@@ -32,7 +32,7 @@ const initialeState = [
     name: 'Dodge Viper',
     description: 'The Dodge Viper, manufactured in the U.S. from 1992 to 2017, is a two-seat sports car with coupe and convertible versions. The Viper is known for its knockout styling and blazing acceleration, as it is able to reach 0-60 MPH in as little as the low 3-second range.',
     price: '$93,000',
-    photo: 'https://mysterio.yahoo.com/mysterio/api/92D08EF2A9592924A74079D6563F4AA25EFFA8AEEAF730BBCCE0C6B9F016856C/autoblog/resizefill_w660_h372;quality_80;format_webp;cc_31536000;/https://s.aolcdn',
+    photo: 'https://file.kelleybluebookimages.com/kbb/base/evox/CP/9261/2016-Dodge-Viper-front_9261_032_2400x1800_PWA.png',
     brand: 'Dodge Viper',
 
   },
@@ -50,7 +50,7 @@ const CarReducers = (state = initialeState, action = {}) => {
   }
 };
 
-export const FetchCar = asyncThunk(GET_CAR, async () => {
+export const FetchCar = createAsyncThunk(GET_CAR, async () => {
   const response = await fetch(ApiUrl);
   const value = await response.json();
   return value;
