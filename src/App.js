@@ -11,7 +11,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <Routes>
-           <Route path="/cars" element={<DetailsPage />} />
+          <Route path="/cars" element={<DetailsPage />} />
           <Route element={<BookingScreen />} path="/booking" />
           <Route element={<ReservationScreen />} path="/reservation" />
         </Routes>
