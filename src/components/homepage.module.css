@@ -1,8 +1,7 @@
 .carslist {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 70vw;
+  max-width: 1280px;
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .carslist li {
@@ -13,4 +12,29 @@
 .carimage {
   height: 320px;
   width: 500px;
+}
+
+.ArrowButton {
+  display: inline-block;
+  background-color: #14c8eb;
+  color: #fff;
+  border: none;
+  padding: 1.5em 1.6em;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+
+  /* width: 100%;
+    position: absolute; */
+  bottom: 0;
+  transition: background-color 0.5s ease-out;
+}
+
+.ArrowButton:focus {
+  outline: none;
+}
+
+.ArrowButton:hover {
+  background-color: #0ea8c7;
 }

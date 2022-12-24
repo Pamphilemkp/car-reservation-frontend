@@ -7,6 +7,7 @@ import { FetchCar } from '../redux/store/store';
 const Homepage = () => {
   const cars = useSelector((state) => state.CarReducers);
   const dispatch = useDispatch();
+
   const home = {
     display: 'flex',
     with: '100vw',
