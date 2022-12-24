@@ -11,8 +11,8 @@ function App() {
     <Provider store={store}>
       <Router>
         <Routes>
-        <Route path="/addCar" element={<AddCar />} />
-        <Route path="/deleteCar" element={<DeleteCar />} />
+          <Route path="/addCar" element={<AddCar />} />
+          <Route path="/deleteCar" element={<DeleteCar />} />
           <Route path="/cars" element={<DetailsPage />} />
         </Routes>
       </Router>
