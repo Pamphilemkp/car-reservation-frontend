@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import DetailsPage from './components/details/DetailsPage';
 import store from './redux/configureStore';
 import AddCar from './components/addCar/addCar';
-import DeleteCar from './components/deleteCar/DeleteCar';
+import 
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/addCar" element={<AddCar />} />
-          <Route path="/deleteCar" element={<DeleteCar />} />
           <Route path="/cars" element={<DetailsPage />} />
         </Routes>
       </Router>
