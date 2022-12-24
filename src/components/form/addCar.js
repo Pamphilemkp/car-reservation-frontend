@@ -18,7 +18,12 @@ const AddCar = () => {
     });
   };
 
-  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newState = { ...state, user_id: id };
+    dispatch(AddCarToApi(newState));
+  };
+
   return (
     <div className={style.container}>
       <div className="container-fluid">
