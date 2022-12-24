@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import DetailsPage from './components/details/DetailsPage';
 import store from './redux/configureStore';
-// import AddCar from './components/addCar/addCar';
+import AddCar from './components/addCar/addCar';
 import BookingScreen from './routes/Booking';
 import ReservationScreen from './routes/Reservation';
 
