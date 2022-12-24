@@ -9,14 +9,6 @@ const createDate = (dateStr) => {
   return new Date(dateArr[0], parseInt(dateArr[1], 10) - 1, parseInt(dateArr[2], 10));
 };
 
-const Booking = (props) => {
-  const {
-    btnAxn,
-    close,
-    price,
-    state,
-    vehicle,
-  } = props;
 
   const user = 1; // GET USER ID FROM THE SESSION
 
@@ -137,7 +129,14 @@ const Booking = (props) => {
             </div>
           </div>
 
-        
+          <div className="form-bottom-bar">
+            <Button
+              btnAxn={sendForm}
+              iconEnd="check"
+              label="Book now"
+              size="main"
+              color="dark"
+            />
           </div>
         </form>
       </div>
