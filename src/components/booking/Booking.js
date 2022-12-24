@@ -137,14 +137,7 @@ const Booking = (props) => {
             </div>
           </div>
 
-          <div className="form-bottom-bar">
-            <Button
-              btnAxn={sendForm}
-              iconEnd="check"
-              label="Book now"
-              size="main"
-              color="dark"
-            />
+        
           </div>
         </form>
       </div>
