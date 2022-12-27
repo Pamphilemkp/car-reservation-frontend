@@ -1,17 +1,29 @@
+
 .carslist {
-  max-width: 1280px;
+  max-width: 94vw;
   overflow-x: hidden;
   margin: 0 auto;
+  padding: 0;
+  margin: 0;
 }
 
 .carslist li {
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .carimage {
   height: 320px;
   width: 500px;
+}
+
+.carname {
+  font-weight: bold;
 }
 
 .ArrowButton {
@@ -24,9 +36,6 @@
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
-
-  /* width: 100%;
-    position: absolute; */
   bottom: 0;
   transition: background-color 0.5s ease-out;
 }
@@ -37,4 +46,37 @@
 
 .ArrowButton:hover {
   background-color: #0ea8c7;
+}
+
+
+.description {
+  margin: 0px;
+  padding: 3px;
+  font-size: 14px;
+  width: 25vw;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* .home-page {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .carimage {
+    height: 17vh;
+    width: 38.3vw;
+  }
+
+  .carslist {
+    padding-left: 0px;
+  }
+
+  .description {
+    margin: 0px;
+    padding: 3px;
+    font-size: 14px;
+    width: 35vw;
+  }
+
 }

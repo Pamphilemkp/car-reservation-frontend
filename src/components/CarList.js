@@ -31,12 +31,7 @@ const CarList = (props) => {
             <>
               <img src={photo} alt={name} className={style.carimage} />
               <p className={style.carname}>{name}</p>
-              <p
-                className={style.description}
-                style={{
-                  paddingLeft: '20px', paddingRight: '20px', marginLeft: '20px', marginRight: '20px',
-                }}
-              >
+              <p className={style.description}>
                 {description}
               </p>
             </>

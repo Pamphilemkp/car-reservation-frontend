@@ -3,18 +3,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import Navbar from './Navbar';
 import CarList from '../components/CarList';
 import { FetchCar } from '../redux/store/store';
+import style from '../components/homepage.module.css';
 
 const Homepage = () => {
   const cars = useSelector((state) => state.CarReducers);
   const dispatch = useDispatch();
-
-  const home = {
-    display: 'flex',
-    with: '100vw',
-    justifycontent: 'space-between',
-    alignitems: 'center',
-    gap: '10px',
-  };
 
   const homeparagraph = {
     color: 'rgba(0, 0, 0, 0.5)',
@@ -25,9 +18,9 @@ const Homepage = () => {
   });
 
   return (
-    <div className="home-page" style={home}>
+    <div className="home-page">
       <Navbar />
-      <div>
+      <div className="title-container">
         <div>
           <h2>LATEST MODELS</h2>
           <p style={homeparagraph}>Please select a car model to book</p>
