@@ -13,10 +13,10 @@ const Navbar = () => (
       <NavLink to="/Booking">Booking</NavLink>
     </div>
     <div className="media-icons">
-      <a href="https://www.linkedin.com/in/pamphile-musonda"><FaLinkedin /></a>
-      <a href="https://twitter.com/PamphileMusonda"><FaTwitter /></a>
-      <a href="https://github.com/Pamphilemkp"><FaGithub /></a>
-      <p>© Copyright 2022, Car reservation</p>
+      <a aria-label="linkedin" href="https://www.linkedin.com/in/pamphile-musonda"><FaLinkedin /></a>
+      <a aria-label="linkedin" href="https://twitter.com/PamphileMusonda"><FaTwitter /></a>
+      <a aria-label="linkedin" href="https://github.com/Pamphilemkp"><FaGithub /></a>
+      <p>© Copyright 2022</p>
     </div>
   </div>
 );
