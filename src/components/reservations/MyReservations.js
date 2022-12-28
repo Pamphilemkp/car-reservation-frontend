@@ -49,10 +49,7 @@ const MyReservations = () => {
                     <button
                       type="button"
                       className={styles.reserveBtn}
-                      id={item.car_id}
-                      onClick={(e) => {
-                        handleClick(e);
-                      }}
+                     
                     >
                       Car details
                     </button>
