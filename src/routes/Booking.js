@@ -5,7 +5,6 @@ import Booking from '../components/booking/Booking';
 
 const BookingScreen = () => {
   const [bookVisible, setBookVisible] = useState(false);
-
   const showBooking = () => setBookVisible(!bookVisible);
 
   return (
