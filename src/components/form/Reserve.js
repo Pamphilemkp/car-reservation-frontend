@@ -14,7 +14,7 @@ const Reserve = () => {
 
   useEffect(() => {
     dispatch();
-  }, []);
+  });
 
   const [pickDate, setPickDate] = useState('');
   const [pickCity, setPickCity] = useState('');
