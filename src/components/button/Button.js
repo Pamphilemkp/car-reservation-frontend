@@ -39,7 +39,7 @@ Button.propTypes = {
   iconEnd: PropTypes.string,
   label: PropTypes.string.isRequired,
   size: PropTypes.string,
-  value: PropTypes.object,
+//   value: PropTypes.object,
 };
 
 Button.defaultProps = {

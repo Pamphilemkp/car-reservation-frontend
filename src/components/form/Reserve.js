@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { postReservationToApi } from '../../redux/reducers/reserve';
-import { getCarsFromApi } from '../../redux/reducers/cars/carsReducer';
+// import { postReservationToApi } from '../../redux/reducers/reserve';
+// import { getCarsFromApi } from '../../redux/reducers/cars/carsReducer';
 import styles from './AddCar.module.css';
 
 const Reserve = () => {
@@ -13,7 +13,7 @@ const Reserve = () => {
   const currentUser = JSON.parse(window.localStorage.getItem('user'));
 
   useEffect(() => {
-    dispatch(getCarsFromApi());
+    dispatch();
   }, []);
 
   const [pickDate, setPickDate] = useState('');
@@ -53,7 +53,7 @@ const Reserve = () => {
       data.car_id = currentState.car.id;
     }
     event.preventDefault();
-    dispatch(postReservationToApi(data));
+    dispatch((data));
     navigate('/reservation');
   };
   return (
