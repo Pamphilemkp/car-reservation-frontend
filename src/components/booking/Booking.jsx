@@ -25,8 +25,8 @@ const Booking = (props) => {
   const dateEnd = useRef();
   const form = useRef();
 
-  // const [days, setDays] = useState('---');
-  // const [cost, setCost] = useState('---');
+  const [days, setDays] = useState('---');
+  const [cost, setCost] = useState('---');
 
   const calcDays = () => {
     const dateStartVal = dateStart.current.value;
