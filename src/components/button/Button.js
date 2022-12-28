@@ -47,7 +47,7 @@ Button.defaultProps = {
   iconStart: null,
   iconEnd: null,
   size: 'normal',
-  value: null,
+  // value: null,
 };
 
 export default Button;
