@@ -1,9 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/
-
-### `npm start`
-
+T
 
 
 Builds the app for production to the `build` folder.\
