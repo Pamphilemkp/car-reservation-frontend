@@ -5,6 +5,10 @@ import { BrowserRouter } from 'react-router-dom';
 import store from './redux/configureStore';
 import App from './App';
 import './index.css';
+import reportWebVitals from './reportWebVitals';
+
+const cors = require('cors')
+App.use(cors());
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -18,3 +22,4 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>,
 );
+reportWebVitals();

@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import Navbar from './Navbar';
 import CarList from '../components/CarList';
 import { FetchCar } from '../redux/store/store';
-// import style from '../components/homepage.module.css';
 
 const Homepage = () => {
   const cars = useSelector((state) => state.CarReducers);
