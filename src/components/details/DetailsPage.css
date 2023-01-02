@@ -57,16 +57,16 @@
   font-size: 10px;
 }
 
-.reserve-btn .chevron-div i {
-  padding: 3px;
-}
-
 .back-chevron-div i {
   border: 1px solid #9acd32;
   padding: 16px 32px;
   background-color: #9acd32;
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
+}
+
+.reserve-btn .chevron-div i {
+  padding: 3px;
 }
 
 @media (max-width: 400px) {
