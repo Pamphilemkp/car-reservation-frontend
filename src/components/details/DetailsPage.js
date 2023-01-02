@@ -13,11 +13,11 @@ function DetailsPage() {
   }, [dispatch]);
 
   return (
-    <div className="app">
+    <div className="app shadow-lg rounded">
       {cars.map((car) => (
         <div className="details" key={car.id}>
           <div className="img-div">
-            <img src={car.photo} alt={car.name} />
+            <img className="w-100" src={car.photo} alt={car.name} />
           </div>
           <div className="box">
             <header className="d-flex justify-content-end flex-column align-items-end">
@@ -27,10 +27,7 @@ function DetailsPage() {
             <p className="px-3">{car.description}</p>
             <div className=" booking-div d-flex justify-content-between align-items-center p-2">
               <span>Booking fee:</span>
-              <span>
-                $
-                {car.price}
-              </span>
+              <span>${car.price}</span>
             </div>
             <div className="duration-div d-flex justify-content-between align-items-center p-2">
               <span>Duration:</span>
