@@ -27,7 +27,10 @@ function DetailsPage() {
             <p className="px-3">{car.description}</p>
             <div className=" booking-div d-flex justify-content-between align-items-center p-2">
               <span>Booking fee:</span>
-              <span>${car.price}</span>
+              <span>
+                $
+                {car.price}
+              </span>
             </div>
             <div className="duration-div d-flex justify-content-between align-items-center p-2">
               <span>Duration:</span>
