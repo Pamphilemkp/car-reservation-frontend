@@ -7,9 +7,6 @@ import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-const cors = require('cors')
-App.use(cors());
-
 const container = document.getElementById('root');
 const root = createRoot(container);
 
