@@ -13,7 +13,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <App />
-      <BrowserRouter>
+    <BrowserRouter>
       <Provider store={store}>
         <App />
       </Provider>

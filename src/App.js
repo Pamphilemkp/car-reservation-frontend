@@ -11,22 +11,20 @@ import PageNotFound from './pages/PageNotFound';
 function App() {
   return (
     <div className="App">
-    <Provider store={store}>
-      <Router>
-        <Routes>
-          <Route path="/cars" element={<DetailsPage />} />
-          <Route element={<BookingScreen />} path="/booking" />
-          <Route element={<ReservationScreen />} path="/reservation" />
-          <Route path="/" element={<Homepage />} />
-        <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </Router>
+      <Provider store={store}>
+        <Router>
+          <Routes>
+            <Route path="/cars" element={<DetailsPage />} />
+            <Route element={<BookingScreen />} path="/booking" />
+            <Route element={<ReservationScreen />} path="/reservation" />
+            <Route path="/" element={<Homepage />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </Router>
 
-    </Provider>
-     </div>
-     );
-    }
-
-
+      </Provider>
+    </div>
+  );
+}
 
 export default App;
