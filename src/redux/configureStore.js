@@ -1,4 +1,5 @@
 import logger from 'redux-logger';
+import  createLogger  from 'redux-logger'
 import thunk from 'redux-thunk';
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import detailsSlice from './details/detailsSlice';
@@ -9,9 +10,14 @@ const rootReducer = combineReducers({
 
 });
 
+
+const logger = createLogger({
+  //empty options
+});
+
 const store = configureStore({
-  reducer: rootReducer,
-  middleware: [thunk, logger],
+  reducer: rootReducer,applyMiddlewar
+  : [thunk, logger],
 });
 
 export default store;
