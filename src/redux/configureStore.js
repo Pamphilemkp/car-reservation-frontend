@@ -1,11 +1,11 @@
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
-import detailsSlice from './details/detailsSlice';
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import detailsSlice from './details/detailsSlice';
 import CarReducers from './store/store';
 
 const rootReducer = combineReducers({
-  cars: detailsSlice,CarReducers,
+  cars: detailsSlice, CarReducers,
 
 });
 

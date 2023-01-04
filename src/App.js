@@ -5,7 +5,6 @@ import DetailsPage from './components/details/DetailsPage';
 import store from './redux/configureStore';
 import BookingScreen from './routes/Booking';
 import ReservationScreen from './routes/Reservation';
-import { Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import PageNotFound from './pages/PageNotFound';
 
