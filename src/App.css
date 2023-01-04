@@ -47,91 +47,47 @@
 
 .box .row span {
   color: crimson;
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-h1 {
-  margin: 0;
-  padding: 0;
-  padding-top: 30px;
-  font-size: 13px;
-}
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-h2 {
-  text-align: center;
-}
+  h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    font-size: 13px;
+  }
 
-.subtile {
-  text-align: center;
-}
+  h2 {
+    text-align: center;
+  }
 
-.home-page {
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-}
+  .subtile {
+    text-align: center;
+  }
 
-.title-container {
-  width: 75vw;
-  margin-top: 50px;
-}
-
-.media-icons a {
-  text-decoration: none;
-  color: black;
-  margin-right: 20px;
-}
-
-.media-icons p {
-  font-size: 12px;
-}
-
-.car-media-icons {
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: rgb(114, 110, 110);
-  width: 15vw;
-  padding: 10px 0;
-}
-
-.car-media-icons a {
-  text-decoration: none;
-  color: rgb(114, 110, 110);
-  padding: 10px;
-  border-radius: 100%;
-  border: solid 1px  rgb(114, 110, 110);
-}
-
-.car-list-item-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  text-align: center;
-  width: 40vw;
-  gap: 10px;
-  align-content: center;
-  vertical-align: baseline;
-}
-
-@media only screen and (max-width: 768px) {
   .home-page {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    gap: 5px;
-    padding: 0;
+  }
+
+  .title-container {
+    width: 75vw;
+    margin-top: 50px;
   }
 
   .media-icons a {
     text-decoration: none;
     color: black;
-    margin-right: 10px;
+    margin-right: 20px;
+  }
+
+  .media-icons p {
+    font-size: 12px;
   }
 
   .car-media-icons {
@@ -140,15 +96,61 @@ h2 {
     justify-content: space-between;
     align-items: center;
     color: rgb(114, 110, 110);
-    width: 25vw;
+    width: 15vw;
     padding: 10px 0;
   }
 
   .car-media-icons a {
     text-decoration: none;
     color: rgb(114, 110, 110);
-    padding: 5px;
+    padding: 10px;
     border-radius: 100%;
     border: solid 1px  rgb(114, 110, 110);
+  }
+
+  .car-list-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    width: 40vw;
+    gap: 10px;
+    align-content: center;
+    vertical-align: baseline;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .home-page {
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+      padding: 0;
+    }
+
+    .media-icons a {
+      text-decoration: none;
+      color: black;
+      margin-right: 10px;
+    }
+
+    .car-media-icons {
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgb(114, 110, 110);
+      width: 25vw;
+      padding: 10px 0;
+    }
+
+    .car-media-icons a {
+      text-decoration: none;
+      color: rgb(114, 110, 110);
+      padding: 5px;
+      border-radius: 100%;
+      border: solid 1px  rgb(114, 110, 110);
+    }
   }
 }
