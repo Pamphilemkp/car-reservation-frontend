@@ -48,8 +48,8 @@ const Freelancers = () => {
     <>
       <div className="flex flex-col items-center justify-center w-full p-6 lg:pl-0">
         <div className="text-center mt-20 xl:mt-2">
-          <h1 className="text-2xl font-black m-0 py-3 leading-4">AVAILABLE FREELANCERS</h1>
-          <p className="text-gray-400 m-0 py-1 leading-3">Select a freelancer</p>
+          <h1 className="text-2xl font-black m-0 py-3 leading-4">AVAILABLE CARS</h1>
+          <p className="text-gray-400 m-0 py-1 leading-3">Select a Car</p>
         </div>
         <hr className="border-t-2 border-dashed border-gray-200 w-48 m-0 xl:my-4 invisible xl:visible" />
         <div className="m-0 p-0 lg:grid lg:grid-cols-3 lg:gap-4 flex flex-col items-center lg:items-start justify-center w-full">

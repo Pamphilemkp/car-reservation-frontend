@@ -31,23 +31,17 @@ const Navigation = () => {
       <div id="Main" className="border rounded fixed h-full bg-white flex justify-between w-64 flex-col">
         <div>
           <Link to="/" type="button" className="flex items-center justify-center w-full py-6 text-xl text-clrPrime xl:text-3xl">
-            GoFreelancers
+            car reservations
           </Link>
           <div className="flex flex-col items-center justify-start w-full px-1 mt-4 ">
             <Link to="/" type="button" className="flex items-center w-full py-3 pl-6 space-x-6 font-bold text-black rounded focus:outline-none focus:bg-clrPrime jusitfy-start hover:bg-clrPrime ">
-              <p className="font-bold leading-4 text-black border-b border-transparent hover:border-clrSec focus:border-clrSec">FREELANCERS</p>
-            </Link>
-            <Link to="/reserve" type="button" className="flex items-center w-full py-3 pl-6 space-x-6 font-bold text-black rounded focus:outline-none focus:bg-clrPrime jusitfy-start hover:bg-clrPrime ">
-              <p className="font-bold leading-4 text-black border-b border-transparent hover:border-clrSec focus:border-white ">RESERVE</p>
+              <p className="font-bold leading-4 text-black border-b border-transparent hover:border-clrSec focus:border-clrSec">MODELS</p>
             </Link>
             <Link to="/myreservation" type="button" className="flex items-center w-full py-3 pl-6 space-x-6 font-bold text-black rounded focus:outline-none focus:bg-clrPrime jusitfy-start hover:bg-clrPrime ">
-              <p className="font-bold leading-4 text-black border-b border-transparent hover:border-clrSec focus:border-white ">MY RESERVATIONS</p>
+              <p className="font-bold leading-4 text-black border-b border-transparent hover:border-clrSec focus:border-white ">RESERVATIONS</p>
             </Link>
             <Link to="/addfreelancer" type="button" className="flex items-center w-full py-3 pl-6 space-x-6 font-bold text-black rounded focus:outline-none focus:bg-clrPrime jusitfy-start hover:bg-clrPrime ">
-              <p className="font-bold leading-4 text-black border-b border-transparent hover:border-clrSec focus:border-white ">ADD FREELANCER</p>
-            </Link>
-            <Link to="/deletefreelancer" type="button" className="flex items-center w-full py-3 pl-6 space-x-6 font-bold text-black rounded focus:outline-none focus:bg-clrPrime jusitfy-start hover:bg-clrPrime ">
-              <p className="font-bold leading-4 text-black border-b border-transparent hover:border-clrSec focus:border-white ">DELETE FREELANCER</p>
+              <p className="font-bold leading-4 text-black border-b border-transparent hover:border-clrSec focus:border-white ">BOOKING</p>
             </Link>
             <button onClick={() => handleSignOut()} type="button" className="flex items-center justify-start w-full py-3 pl-6 space-x-6 font-bold text-red-500 rounded focus:outline-none focus:text-700 hover:text-red-600 ">
               <p className="leading-4 border-b border-transparent text-danger">Logout</p>
