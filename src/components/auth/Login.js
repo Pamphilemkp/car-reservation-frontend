@@ -37,7 +37,7 @@ const LoginForm = () => {
         {' '}
         <input type="password" name="password" placeholder="Password" />
         <br />
-        <button type="submit" value="Login">Login</button>
+        <button type="submit" value="Login" className="log-in">Login</button>
         <div className="login-link">
           <div>
             <p>Do not have an Account?</p>

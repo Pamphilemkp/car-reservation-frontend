@@ -1,4 +1,4 @@
-button[type="button"] {
+.logou-btn {
   font-size: 1rem;
   padding: 0.6rem;
   border: none;
@@ -10,7 +10,7 @@ button[type="button"] {
   transition: all 0.3s ease;
 }
 
-button[type="button"]:hover {
+.logou-btnhover {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

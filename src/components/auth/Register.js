@@ -77,7 +77,7 @@ const SignupForm = () => {
             </label>
           </div>
           <div>
-            <button type="submit">Register</button>
+            <button type="submit" className="register">Register</button>
 
           </div>
           <p ref={errorMessageRef} />
