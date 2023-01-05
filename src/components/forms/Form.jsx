@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 const Form = (props) => {
   const { data } = props;
 
-  console.log(data);
-
-  return (
+    return (
     <fragment>
       <div className="grid-display grid-simple">
         <div className="add-margin-below">
