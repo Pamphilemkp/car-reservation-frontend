@@ -94,7 +94,7 @@ git clone https://github.com/Pamphilemkp/car-reservation-frontend.git
 - LinkedIn: [@pamphilemkp](https://www.linkedin.com/in/pamphile-musonda)
 
 
-👤 **Basit Ali** :writing_hand:
+👤 **Patrick Maina** :writing_hand:
 
 - GitHub: [@PNdunguMaina](https://github.com/PNdunguMaina)
 - LinkedIn: [Patrick Maina](https://www.linkedin.com/in/pndungumaina/)
