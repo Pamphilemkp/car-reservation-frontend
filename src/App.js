@@ -10,7 +10,6 @@ import PageNotFound from './pages/PageNotFound';
 import Reserve from './components/forms/Reserve';
 import MyReservations from './components/reservations/MyReservations';
 
-
 function App() {
   return (
     <div className="App">
@@ -20,21 +19,11 @@ function App() {
             <Route path="/cars" element={<DetailsPage />} />
             <Route element={<BookingScreen />} path="/booking" />
             <Route element={<ReservationScreen />} path="/reservation" />
-
-            {isLoggedIn ? (
-            <>
-              <Route path="/reserve" element={<Reserve />} />
-              <Route path="/reservation" element={<MyReservations />} />
-              {user.role === 'admin' && (
-              <>
+            <Route path="/reserve" element={<Reserve />} />
+            <Route path="/reservation" element={<MyReservations />} />
             <Route path="/" element={<Homepage />} />
             <Route path="*" element={<PageNotFound />} />
-            </>
-              )}
-            </>
-          ) : (
-            ''
-          )}
+
           </Routes>
         </Router>
 

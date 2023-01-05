@@ -11,7 +11,7 @@ const MyReservations = () => {
   const currentReservations = useSelector((state) => state.reservation);
 
   useEffect(() => {
-    dispatch();
+    dispatch(getMyResevationsFromApi());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
