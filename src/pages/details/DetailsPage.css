@@ -1,0 +1,136 @@
+.app {
+  max-width: 85vw;
+  width: 100%;
+  box-shadow: 0 0 20px #ccc;
+  min-height: 85vh;
+  margin: 100px auto;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+.details .img-div {
+  max-width: 85vw;
+  min-width: 290px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+.details .box {
+  max-width: 85vw;
+  min-width: 290px;
+  margin: 2rem;
+}
+
+.details .booking-div {
+  gap: 1rem;
+  max-width: 50vw;
+  background-color: #ccc;
+  margin-left: 50%;
+  font-size: 0.8rem;
+}
+
+.details .duration-div {
+  gap: 1rem;
+  max-width: 50vw;
+  background-color: #fff;
+  margin-left: 50%;
+  font-size: 0.8rem;
+}
+
+.details .color-div {
+  max-height: 200px;
+}
+
+.color-div .reserve-btn {
+  border-radius: 20px;
+  width: 10rem;
+  background-color: #9acd32;
+}
+
+.reserve-btn .chevron-div {
+  border-radius: 25px;
+  border: 1px solid #fff;
+  font-size: 10px;
+}
+
+.back-chevron-div i {
+  border: 1px solid #9acd32;
+  padding: 16px 32px;
+  background-color: #9acd32;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.reserve-btn .chevron-div i {
+  padding: 3px;
+}
+
+@media (max-width: 400px) {
+  .details .img-div {
+    min-width: 100px;
+    overflow: hidden;
+  }
+
+  .details .box {
+    min-width: 100px;
+    margin: 2rem;
+  }
+
+  .box header h2 {
+    font-size: small;
+  }
+
+  .details .booking-div {
+    gap: 0.3rem;
+    margin-left: 25%;
+    font-size: 0.6rem;
+  }
+
+  .details .duration-div {
+    gap: 0.3rem;
+    margin-left: 25%;
+    font-size: 0.6rem;
+  }
+
+  .details .color-div {
+    max-height: 200px;
+  }
+
+  .color-div img {
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .details {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .details .booking-div {
+    margin-left: 25%;
+  }
+
+  .details .duration-div {
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .details .booking-div {
+    margin-left: 50%;
+  }
+
+  .details .duration-div {
+    margin-left: 50%;
+  }
+}
