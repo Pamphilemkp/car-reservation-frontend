@@ -32,8 +32,8 @@ form input[type="password"] {
   padding: 0.6rem;
   border: none;
   border-radius: 5px;
-  width: 100%;
-  background-color: #333;
+  width: 80%;
+  background-color: #4caf50;
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;
