@@ -79,6 +79,26 @@ git clone https://github.com/Pamphilemkp/car-reservation-frontend.git
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-otuya)
 - Twitter: [Twitter](https://twitter.com/mark_anthonny)
 
+## Author
+
+👤 **Adebowale Adegboye Monsur**
+
+- GitHub: [@githubhandle](https://github.com/ademibowale)
+- Twitter: [@twitterhandle](https://twitter.com/Ademibowale1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adebowale-adegboye-143568221/)
+
+👤 **Pamphile Mkp** :writing_hand:
+
+- GitHub:   [@pamphilemkp](https://github.com/pamphilemkp)
+- Twitter:  [@pamphilemkp](https://Twitter.com/PamphileMusonda)
+- LinkedIn: [@pamphilemkp](https://www.linkedin.com/in/pamphile-musonda)
+
+
+👤 **Basit Ali** :writing_hand:
+
+- GitHub: [@PNdunguMaina](https://github.com/PNdunguMaina)
+- LinkedIn: [Patrick Maina](https://www.linkedin.com/in/pndungumaina/)
+- Twitter: [@ndunguwamaina_](https://twitter.com/ndunguwamaina_)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
