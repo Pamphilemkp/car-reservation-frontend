@@ -7,7 +7,7 @@ import Homepage from './pages/Homepage';
 import PageNotFound from './pages/PageNotFound';
 import Reserve from './components/forms/Reserve';
 import MyReservations from './components/reservations/MyReservations';
-import DetailsPage from './pages/details/DetailsPaje';
+// import DetailsPage from './pages/details/DetailsPaje';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Provider store={store}>
         <Router>
           <Routes>
+            {/* <Route path="/cars" element={<DetailsPaje />} /> */}
             <Route path="/cars" element={<DetailsPage />} />
             <Route path="/reserve" element={<Reserve />} />
             <Route path="/reservation" element={<MyReservations />} />
