@@ -70,6 +70,7 @@ h2 {
   vertical-align: baseline;
 }
 
+
 @media only screen and (max-width: 768px) {
   .home-page {
     width: 100vw;
@@ -92,6 +93,7 @@ h2 {
     align-items: center;
     color: rgb(114, 110, 110);
     width: 25vw;
+    margin-left: 20vw;
     padding: 10px 0;
   }
 
@@ -101,5 +103,17 @@ h2 {
     padding: 5px;
     border-radius: 100%;
     border: solid 1px  rgb(114, 110, 110);
+  }
+  
+  .car-list-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+    gap: 10px;
+    align-content: center;
+    vertical-align: baseline;
   }
 }
