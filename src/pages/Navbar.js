@@ -11,6 +11,7 @@ const Navbar = () => (
       <NavLink to="/Lifestyle">Lifestyle</NavLink>
       <NavLink to="/Shop">Shop</NavLink>
       <NavLink to="/Booking">Booking</NavLink>
+      <NavLink to="/AddCar">Add Car</NavLink>
     </div>
     <div className="media-icons">
       <a aria-label="linkedin" href="https://www.linkedin.com/in/pamphile-musonda"><FaLinkedin /></a>
