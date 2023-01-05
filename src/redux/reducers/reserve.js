@@ -7,7 +7,7 @@ const postReservation = () => ({
 });
 
 export const postReservationToApi = (data) => (dispatch) => {
-  fetch('https://rent-a-car-brytebee.herokuapp.com/api/v1/reservations', {
+  fetch('api/v1/cars', {
     method: 'POST',
     headers: {
       'content-type': 'application/json',

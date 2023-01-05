@@ -1,14 +1,14 @@
 /* eslint-disable no-unused-vars */
-const FETCH_MY_RESERVATIONS = 'FETCH_MY_RESERVATIONS';
+const FETCH_CAR_RESERVATIONS = 'FETCH_MY_RESERVATIONS';
 const initialState = [];
 
 const getMyResevations = (payload) => ({
-  type: FETCH_MY_RESERVATIONS,
+  type: FETCH_CAR_RESERVATIONS,
   payload,
 });
 
 export const getMyResevationsFromApi = () => (dispatch) => {
-  fetch('https://rent-a-car-brytebee.herokuapp.com/api/v1/reservations', {
+  fetch('api/v1/cars', {
     method: 'GET',
     headers: {
       Authorization: localStorage.token,
