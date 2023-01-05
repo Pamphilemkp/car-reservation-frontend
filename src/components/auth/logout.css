@@ -1,0 +1,16 @@
+.logou-btn {
+  font-size: 1rem;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logou-btnhover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
