@@ -45,7 +45,7 @@ const addCar = (car) => async (dispatch) => {
       },
     };
     const { data } = await axios.post(
-      'http://localhost:5000/products',
+      'http://127.0.0.1:3000/api/v1/cars',
       car,
       config,
     );

@@ -31,7 +31,7 @@ const AddCarScreen = () => {
     <div className="relative w-full">
       <button
         type="button"
-        onClick={() => navigate('/addCar')}
+        onClick={() => navigate('/AddCar')}
         className="block mx-auto m-2 bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mb-[4rem]"
       >
         + Add Car
