@@ -12,6 +12,11 @@ import Reserve from './components/forms/Reserve';
 import DeleteCar from './components/deleteCar/DeleteCar';
 
 function App() {
+  const isLoggedIn = localStorage.getItem('isLoggedIn');
+  // const data = JSON.parse(localStorage.getItem('user'));
+  const car = useSelector((state) => state.cars);
+  const { user } = data || {};
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch();
@@ -19,32 +24,27 @@ function App() {
 
   return (
     <div className="App">
-      <Provider store={store}>
-        <Router>
-          <Routes>
-            <Route path="/cars" element={<DetailsPage />} />
-           
-            
-            <Route path="/" element={<Homepage />} />
-            <Route path="*" element={<PageNotFound />} />
-            <Route path="/deleteCar" element={<DeleteCar />} />
-            {isLoggedIn ? (
+      <TopNav />
+      <div className="d-flex">
+        <SideNav />
+        <Routes>
+
+          {isLoggedIn ? (
             <>
               <Route path="/reserve" element={<Reserve />} />
               <Route path="/reservation" element={<MyReservations />} />
               {user.role === 'admin' && (
               <>
-              <Route path="/delete" element={<DeleteCar car={car} />} />
+                <Route path="/delete" element={<DeleteCar car={car} />} />
               </>
               )}
             </>
           ) : (
             ''
           )}
-          </Routes>
-        </Router>
-
-      </Provider>
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </div>
     </div>
   );
 }
