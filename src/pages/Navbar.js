@@ -7,6 +7,7 @@ import Logout from '../components/auth/LogOut';
 const Navbar = () => (
   <div className={style.navbar}>
     <h1>Car Reservation </h1>
+
     <div className={style.navlinks}>
       <NavLink to="/">Model</NavLink>
       <NavLink to="/Lifestyle">Lifestyle</NavLink>

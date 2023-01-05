@@ -20,7 +20,7 @@ export const userIsLogged = () => {
 export const createUser = createAsyncThunk(
   POST_SIGNUP,
   async (user) => {
-    const response = await fetch('http://127.0.0.1:3001/signup', {
+    const response = await fetch('http://127.0.0.1:3000/signup', {
       method: 'post',
       headers: {
         'content-type': 'application/json',
@@ -38,7 +38,7 @@ export const createUser = createAsyncThunk(
 export const logInUser = createAsyncThunk(
   POST_LOGIN,
   async (user) => {
-    const response = await fetch('http://127.0.0.1:3001/login', {
+    const response = await fetch('http://127.0.0.1:3000/login', {
       method: 'post',
       headers: {
         'content-type': 'application/json',
@@ -57,7 +57,7 @@ export const logOutUser = createAsyncThunk(
   DELETE_LOGOUT,
   async () => {
     const token = localStorage.getItem('token');
-    const response = await fetch('http://127.0.0.1:3001/logout', {
+    const response = await fetch('http://127.0.0.1:3000/logout', {
       method: 'delete',
       headers: {
         'content-type': 'application/json',

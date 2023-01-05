@@ -9,7 +9,7 @@ const initialState = {
 export const getUser = createAsyncThunk(
   'users/auth',
   async () => {
-    const response = await fetch('http://127.0.0.1:3001/users', {
+    const response = await fetch('http://127.0.0.1:3000/users', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

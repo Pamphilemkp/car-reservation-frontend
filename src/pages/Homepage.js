@@ -23,12 +23,12 @@ const Homepage = () => {
     return (
       <div>
         <>
-      <LoginForm/>
-      </>
+          <LoginForm />
+        </>
       </div>
     );
   }
-else{
+
   return (
     <div className="home-page">
       <Navbar />
@@ -38,11 +38,10 @@ else{
           <p className="subtile" style={homeparagraph}>Please select a car model to book</p>
         </div>
         <CarList cars={cars} />
-        
+
       </div>
     </div>
   );
-}
 };
 
 export default Homepage;

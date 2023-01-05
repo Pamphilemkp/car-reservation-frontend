@@ -1,4 +1,3 @@
-
 .carslist {
   max-width: 94vw;
   overflow-x: hidden;
@@ -31,7 +30,9 @@
 }
 
 .ArrowButton {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   left: 20vw;
   top: 20vw;
@@ -41,7 +42,6 @@
   background-color: #14c8eb;
   border-top-right-radius: 60%;
   border-bottom-right-radius: 60%;
-  color: #fff;
   border: none;
   padding: 1.5em 1.6em;
   padding-left: 20px;
