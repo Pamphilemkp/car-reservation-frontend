@@ -13,109 +13,59 @@
 </div>
 
 
-# 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [📝 License](#license)
-
-
-# 📖 [Car reservations] <a name="about-project"></a>
-
-> About
-a car resersavations app for booking vehicles  
-
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">ReactJS</a></li>
-    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
-
+    <li><a href="https://reactjs.org/">React</a></li>
+  </ul>
+   <ul>
+    <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://guides.rubyonrails.org/index.html">Rails</a></li>
-  </ul>
-</details>
+### Key Features <a name="key-features"></a>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+- **[User Signup]**
+- **[User Signin]**
+- **[Add Product]**
+- **[Delete Product]**
+- **[Resserve Product]**
+- **[Delete Reserve]**
 
-<details>
-<summary>Other</summary>
-  <ul>
-    <li><a href="https://docs.github.com/en/get-started/quickstart/github-flow">GitHub flow</a></li>
-    <li><a href="https://rubocop.org/">Rubocop</a></li>
-    <li><a href="https://stylelint.io/">Stylelint</a></li>
-  </ul>
-</details>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+- React
+- NPM
 
-In order to run this project you need :arrow_down: :
+In order to run this project you need:
 
-- Check the Ruby version or if you have at all by running `ruby -v` if it returns  `ruby 3.1.2p20 (2022-04-12 revision 4491bb740a)` or similar, you have Ruby installed.
+### Clone this repository
+git clone https://github.com/Pamphilemkp/car-reservation-frontend.git
 
-* Ruby version used `ruby 3.1.2`
-
-### Setup 🛠️
-
-Clone this repository to your desired folder:
-
-
-- Clone the repository using the GitHub this link [🔗](https://github.com/basitali111/hello-react-with-rails.git)
-- `cd hello-rails-react`
-
-### Install 📥
-
-To get this project running correctly, please run the following command to install all necessary dependencies:
-
-- Run `bundle install`
-- Run `npm install`
-- Run `npm run build`
-- Run `yarn install`
-
-### Usage
-
-To run the project, execute the following command:
-
-- Run `rails server`
-- Open Browser `http://localhost:3000/`
-- Ensure you have PostgreSQL installed before running the application`psql --version`.
-- Run `rails db:setup`.
-- Create a [.envs](https://medium.com/geekculture/postgresql-rails-and-macos-16248ddcc8ba) file using the link to host postgres credentials.
+### Run project
+- cd hello-react-front-end
+- npm install
+- npm start
+## 🛠 Link to Back-end <a name="built-with"></a>
+[Back-end](https://github.com/Pamphilemkp/car-reservation)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Kanban board
+- [Kanban Link](https://github.com/users/Pamphilemkp/projects/3/views/1)
+
+- ***Final number of team members - 5***
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Mark otuya**
 
