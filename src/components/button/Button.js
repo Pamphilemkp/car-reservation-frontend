@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import {
   FaArrowCircleRight,
   FaCalendarAlt,
-
   FaCheck,
 } from 'react-icons/fa';
 import './Button.scss';
@@ -40,7 +39,7 @@ Button.propTypes = {
   iconEnd: PropTypes.string,
   label: PropTypes.string.isRequired,
   size: PropTypes.string,
-//   value: PropTypes.object,
+  value: PropTypes.object,
 };
 
 Button.defaultProps = {
@@ -48,7 +47,7 @@ Button.defaultProps = {
   iconStart: null,
   iconEnd: null,
   size: 'normal',
-  // value: null,
+  value: null,
 };
 
 export default Button;

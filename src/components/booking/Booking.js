@@ -2,8 +2,7 @@ import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import { FaTimes } from 'react-icons/fa';
 import './Booking.scss';
-// import Button from '../button/Button';
-import Button from '../components/button/Button';
+import Button from '../button/Button';
 
 const createDate = (dateStr) => {
   const dateArr = dateStr.split('-');
