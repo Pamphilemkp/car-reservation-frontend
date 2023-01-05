@@ -69,58 +69,57 @@
     text-align: center;
   }
 
+  @media only screen and (max-width: 768px) {
+    .home-page {
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+    }
 
+    .title-container {
+      width: 75vw;
+      margin-top: 50px;
+    }
 
-@media only screen and (max-width: 768px) {
+    .media-icons a {
+      text-decoration: none;
+      color: black;
+      margin-right: 20px;
+    }
 
-.home-page {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
+    .media-icons p {
+      font-size: 12px;
+    }
+
+    .car-media-icons {
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgb(114, 110, 110);
+      width: 25vw;
+      margin-left: 20vw;
+      padding: 10px 0;
+    }
+
+    .car-media-icons a {
+      text-decoration: none;
+      color: rgb(114, 110, 110);
+      padding: 10px;
+      border-radius: 100%;
+      border: solid 1px  rgb(114, 110, 110);
+    }
+
+    .car-list-item-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 40vw;
+      gap: 10px;
+      align-content: center;
+      vertical-align: baseline;
+    }
   }
-
-  .title-container {
-    width: 75vw;
-    margin-top: 50px;
-  }
-
-  .media-icons a {
-    text-decoration: none;
-    color: black;
-    margin-right: 20px;
-  }
-
-  .media-icons p {
-    font-size: 12px;
-  }
-
-  .car-media-icons {
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(114, 110, 110);
-    width: 25vw;
-    margin-left: 20vw;
-    padding: 10px 0;
-  }
-
-  .car-media-icons a {
-    text-decoration: none;
-    color: rgb(114, 110, 110);
-    padding: 10px;
-    border-radius: 100%;
-    border: solid 1px  rgb(114, 110, 110);
-  }
-
-  .car-list-item-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 40vw;
-    gap: 10px;
-    align-content: center;
-    vertical-align: baseline;
-  }
+}
