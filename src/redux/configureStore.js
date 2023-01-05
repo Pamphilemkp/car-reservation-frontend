@@ -4,13 +4,10 @@ import thunk from 'redux-thunk';
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import detailsSlice from './details/detailsSlice';
 import CarReducers from './store/store';
-<<<<<<< HEAD
 import reservationReducer from './reducers/reserve';
 import myReservationReducer from './reducers/myReservations';
-=======
 import userReducer from './auth/authSlice/authSlice';
 import authReducer from './auth/authSlice/getauthuser';
->>>>>>> dev
 
 const rootReducer = combineReducers({
   cars: detailsSlice,
@@ -27,12 +24,9 @@ const logger = createLogger({
 
 const store = configureStore({
   reducer: rootReducer,
-<<<<<<< HEAD
   applyMiddlewar: [thunk, logger],
-=======
   user: userReducer,
   auth: authReducer,
->>>>>>> dev
 });
 
 export default store;
