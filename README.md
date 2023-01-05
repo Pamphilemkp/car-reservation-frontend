@@ -40,15 +40,13 @@
 **car-reservation-frontend** is a React front end app to book a car.
 
 <div align="center">
-  <img src="app-screenshot.png" alt="app screenshot" width="140"  height="auto" />
+  <img src="app-screenshot.png" alt="app screenshot" width="auto"  height="auto" />
 
 </div>
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Languages</summary>
@@ -78,8 +76,6 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **User Login**
 - **User Signup**
@@ -136,8 +132,6 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
@@ -154,8 +148,6 @@ To run the project, execute the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Rotate Image**
 - [ ] **More images page**
@@ -186,8 +178,6 @@ If you like this project, please give it a star.
 
 - [Microverse](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjoytLh7LD8AhVCi_0HHaFRC8IQFnoECCAQAQ&url=https%3A%2F%2Fwww.microverse.org%2F&usg=AOvVaw3axmd_a5aGKI5J_-Bba_rQ)
 - [Murat Korkmaz](https://www.behance.net/muratk)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
