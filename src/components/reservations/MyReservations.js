@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-// import { getMyResevationsFromApi } from '../../redux/reducers/myReservations';
+import { getMyResevationsFromApi } from '../../redux/reducers/myReservations';
 import styles from './MyReservations.module.css';
 
 const MyReservations = () => {

@@ -11,8 +11,9 @@ const Reserve = () => {
   const currentUser = JSON.parse(window.localStorage.getItem('user'));
 
   useEffect(() => {
-    dispatch();
-  });
+    dispatch(getCarsFromApi());
+  },[]
+  );
 
   const [pickDate, setPickDate] = useState('');
   const [pickCity, setPickCity] = useState('');
