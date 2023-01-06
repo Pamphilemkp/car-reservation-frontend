@@ -1,46 +1,126 @@
-# Getting Started with Create React App and Redux
+<a name="readme-top"></a>
 
 T
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+  ![](https://img.shields.io/badge/Microverse-blueviolet)
+  <br/>
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
+# 📖 [Car reservation - App] <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console. 
+**[Car reservation - App]** is a React FrontEnd project to booking an appointment to try a car
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <br/>
 
-### `npm run build`
+  <h3><b>Car Reservations 👋🌎</b></h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run eject`
+### Tech Stack <a name="tech-stack"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+  </ul>
+   <ul>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a name="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **[User Signup]**
+- **[User Signin]**
+- **[Add Product]**
+- **[Delete Product]**
+- **[Resserve Product]**
+- **[Delete Reserve]**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 💻 Getting Started <a name="getting-started"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get a local copy up and running, follow these steps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+- React
+- NPM
+
+In order to run this project you need:
+
+### Clone this repository
+git clone https://github.com/Pamphilemkp/car-reservation-frontend.git
+
+### Run project
+- cd hello-react-front-end
+- npm install
+- npm start
+## 🛠 Link to Back-end <a name="built-with"></a>
+[Back-end](https://github.com/Pamphilemkp/car-reservation)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Kanban board
+- [Kanban Link](https://github.com/users/Pamphilemkp/projects/3/views/1)
+
+- ***Final number of team members - 5***
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Mark otuya**
+
+- GitHub: [@githubhandle](https://github.com/markotuya0)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-otuya)
+- Twitter: [Twitter](https://twitter.com/mark_anthonny)
+
+## Author
+
+👤 **Adebowale Adegboye Monsur**
+
+- GitHub: [@githubhandle](https://github.com/ademibowale)
+- Twitter: [@twitterhandle](https://twitter.com/Ademibowale1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adebowale-adegboye-143568221/)
+
+👤 **Pamphile Mkp** :writing_hand:
+
+- GitHub:   [@pamphilemkp](https://github.com/pamphilemkp)
+- Twitter:  [@pamphilemkp](https://Twitter.com/PamphileMusonda)
+- LinkedIn: [@pamphilemkp](https://www.linkedin.com/in/pamphile-musonda)
+
+
+👤 **Patrick Maina** :writing_hand:
+
+- GitHub: [@PNdunguMaina](https://github.com/PNdunguMaina)
+- LinkedIn: [Patrick Maina](https://www.linkedin.com/in/pndungumaina/)
+- Twitter: [@ndunguwamaina_](https://twitter.com/ndunguwamaina_)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project or find it useful/interesting, please make sure you give ⭐️ a since this will make it easily accesible for you too!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
