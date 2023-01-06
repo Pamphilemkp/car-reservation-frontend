@@ -14,7 +14,7 @@ const Reserve = () => {
 
   useEffect(() => {
     dispatch(getCarsFromApi());
-  }, );
+  });
 
   const [pickDate, setPickDate] = useState('');
   const [pickCity, setPickCity] = useState('');
