@@ -21,12 +21,7 @@ export const postReservationToApi = (data) => (dispatch) => {
   dispatch(postReservation());
 };
 
-const reservationReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case RESERVATION_SUCCESS:
-      return [action.payload];
-    default:
-      return state;
+
   }
 };
 
