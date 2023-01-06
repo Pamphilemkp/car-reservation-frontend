@@ -9,7 +9,7 @@ const getCars = () => async (dispatch) => {
         accept: 'application/json',
       },
     };
-    const { data } = await axios.get('http://localhost:5000/products', config);
+    const { data } = await axios.get('http://127.0.0.1:3000/api/v1/cars', config);
     dispatch({
       type: types.GET_CARS,
       payload: data,

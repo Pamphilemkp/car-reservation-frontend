@@ -15,7 +15,7 @@ const Homepage = () => {
 
   useEffect(() => {
     dispatch(FetchCar());
-  });
+  }, [dispatch]);
 
   return (
     <div className="home-page">
