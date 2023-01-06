@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import React from 'react';
 import DetailsPage from './components/details/DetailsPage';
 import store from './redux/configureStore';
-import React from 'react';
 // import { Route, Routes } from 'react-router-dom';
 import LoginForm from './components/auth/Login';
 import SignupForm from './components/auth/Register';
