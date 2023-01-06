@@ -4,11 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import { getMyResevationsFromApi } from '../../redux/reducers/myReservations';
 import styles from './MyReservations.module.css';
 
-const MyReservations = () => {
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
-
-  const currentReservations = useSelector((state) => state.reservation);
 
   useEffect(() => {
     dispatch(getMyResevationsFromApi());
