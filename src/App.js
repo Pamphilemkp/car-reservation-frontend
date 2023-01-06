@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import DetailsPage from './components/details/DetailsPage';
 import store from './redux/configureStore';
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import LoginForm from './components/auth/Login';
 import SignupForm from './components/auth/Register';
 import './App.css';
