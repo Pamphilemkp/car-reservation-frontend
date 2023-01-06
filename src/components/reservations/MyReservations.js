@@ -12,7 +12,7 @@ const MyReservations = () => {
 
   useEffect(() => {
     dispatch(getMyResevationsFromApi());
-  }, []);
+  }, );
 
   const handleClick = (e) => {
     navigate(`/cars/${e.target.id}`);
