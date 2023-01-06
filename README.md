@@ -18,6 +18,21 @@
 
 </div>
 
+# Quick view
+
+![Screenshot 2023-01-06 111705](https://user-images.githubusercontent.com/63063973/210942011-becae457-1bd4-447a-a29e-d22c3fb0d1c0.png)
+
+
+
+![Screenshot 2023-01-06 111915](https://user-images.githubusercontent.com/63063973/210942255-f7be35ed-5339-421a-98da-e6db32f22485.png)
+
+
+
+![Screenshot 2023-01-06 104213](https://user-images.githubusercontent.com/63063973/210940767-63845699-6351-44c3-a778-45267a0ac52e.png)
+
+
+![Screenshot 2023-01-06 104549](https://user-images.githubusercontent.com/63063973/210940972-758c89e1-3473-4229-a5a1-f1a2e5506ee7.png)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
