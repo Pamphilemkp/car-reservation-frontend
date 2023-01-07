@@ -17,7 +17,7 @@ const Homepage = () => {
 
   useEffect(() => {
     dispatch(FetchCar());
-  });
+  }, [dispatch]);
 
   if (!useAuthenticated) {
     return (

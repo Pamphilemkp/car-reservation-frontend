@@ -9,8 +9,6 @@ const initialState = {
   lifecycle: { loading: 'initial' },
 };
 
-// const url = 'http://127.0.0.1:3001/';
-
 export const userIsLogged = () => {
   const isLogged = localStorage.getItem('token');
   if (isLogged) return true;

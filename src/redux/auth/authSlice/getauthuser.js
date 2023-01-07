@@ -16,7 +16,7 @@ export const getUser = createAsyncThunk(
         Authorization: localStorage.getItem('token'),
       },
     });
-    // console.log(response);
+
     if (response.ok) {
       return response.json();
     }
