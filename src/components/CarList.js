@@ -39,7 +39,6 @@ const CarList = (props) => {
 
   };
 
-  // eslint-disable-next-line no-unused-vars
   const [sliderRef, setSliderRef] = useState(null);
   const showDetailsPage = (id) => {
     navigate(`/products/${id}`);

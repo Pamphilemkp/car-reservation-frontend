@@ -13,11 +13,10 @@ const SignupForm = () => {
     e.preventDefault();
     const formData = new FormData(formRef.current);
     const data = Object.fromEntries(formData);
-    // Check if password is at least 6 characters long
+
     if (data.password.length < 6) {
-      // Update the text of the error message element
       errorMessageRef.current.textContent = 'Password must be at least 6 characters long';
-      // Remove the error message after 5 seconds
+
       setTimeout(() => {
         errorMessageRef.current.textContent = '';
       }, 5000);
@@ -34,7 +33,7 @@ const SignupForm = () => {
         password: data.password,
       },
     };
-    // console.log(user);
+
     dispatch(createUser(user));
     navigate('/login');
   };
