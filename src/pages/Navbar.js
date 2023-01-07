@@ -12,6 +12,7 @@ const Navbar = () => (
       <NavLink to="/">Model</NavLink>
       <NavLink to="/Lifestyle">Lifestyle</NavLink>
       <NavLink to="/Shop">Shop</NavLink>
+      <NavLink to="/AddCar">AddCar</NavLink>
       <NavLink to="/Booking">Booking</NavLink>
       <Logout />
     </div>

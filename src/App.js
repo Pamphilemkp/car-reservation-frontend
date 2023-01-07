@@ -5,6 +5,7 @@ import SignupForm from './components/auth/Register';
 import './App.css';
 import Homepage from './pages/Homepage';
 import PageNotFound from './pages/PageNotFound';
+import AddCar from './components/AddCar';
 import DetailsPage from './pages/details/DetailsPaje';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<LoginForm />} />
         <Route path="/register" element={<SignupForm />} />
         <Route path="/products/:id" element={<DetailsPage />} />
+        <Route path="/AddCar" element={<AddCar />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </div>
