@@ -35,7 +35,7 @@
 
 **[api documentation]**
 ![Api screenshot](src/assets/images/api-doc1.png)
-[Api](src/assets/images/api doc2.png)  
+[Api](src/assets/images/api-doc2.png)  
 
 ## 🛠 Built With <a name="built-with"></a>
 
