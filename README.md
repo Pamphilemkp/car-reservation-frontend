@@ -88,32 +88,35 @@ git clone https://github.com/Pamphilemkp/car-reservation-frontend.git
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Mark otuya**
-
-- GitHub: [@githubhandle](https://github.com/markotuya0)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-otuya)
-- Twitter: [Twitter](https://twitter.com/mark_anthonny)
-
-## Author
-
-👤 **Adebowale Adegboye Monsur**
-
-- GitHub: [@githubhandle](https://github.com/ademibowale)
-- Twitter: [@twitterhandle](https://twitter.com/Ademibowale1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adebowale-adegboye-143568221/)
-
 👤 **Pamphile Mkp** :writing_hand:
 
 - GitHub:   [@pamphilemkp](https://github.com/pamphilemkp)
 - Twitter:  [@pamphilemkp](https://Twitter.com/PamphileMusonda)
 - LinkedIn: [@pamphilemkp](https://www.linkedin.com/in/pamphile-musonda)
 
-
 👤 **Patrick Maina** :writing_hand:
 
 - GitHub: [@PNdunguMaina](https://github.com/PNdunguMaina)
 - LinkedIn: [Patrick Maina](https://www.linkedin.com/in/pndungumaina/)
 - Twitter: [@ndunguwamaina_](https://twitter.com/ndunguwamaina_)
+
+👤 **Basit Ali** :writing_hand:
+
+- GitHub: [@githubhandle](https://github.com/basitali111)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/basit-ali-jobs/)
+- Twitter: [Twitter](https://twitter.com/BasitAl35031734)
+
+👤 **Mark otuya**
+
+- GitHub: [@githubhandle](https://github.com/markotuya0)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-otuya)
+- Twitter: [Twitter](https://twitter.com/mark_anthonny)
+
+👤 **Adebowale Adegboye Monsur**
+
+- GitHub: [@githubhandle](https://github.com/ademibowale)
+- Twitter: [@twitterhandle](https://twitter.com/Ademibowale1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adebowale-adegboye-143568221/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
